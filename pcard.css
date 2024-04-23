@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+}
+
+body{
+    border: 1px solid black;
+    padding: 30px;
+    width: 40vh;
+    margin-left: 40vw;
+}
+
+.topmpostpay{
+    text-align: center;
+}
+
+.btn{
+    top: 10px;
+    justify-content: center;
+    position: relative;
+    justify-content: space-evenly;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    outline: none;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    margin-bottom: 3.5vh;
+}
+
+#cart-items{
+    text-align: center;
+}
+
+.tot{
+    text-align: center;
+}
+
+.btn:disabled {
+    pointer-events: none;
+  }
+  
+  .btn:active {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .btn:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
